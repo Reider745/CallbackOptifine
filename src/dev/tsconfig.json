@@ -20,7 +20,7 @@
 		"dungeon_utility/feature.js",
 		"generation.ts",
 		"entity.ts",
-		"shared.js"
+		"shared.ts"
 	],
 	"files": [
 		"C:\\vs\\CallbackOptifine\\toolchain\\declarations\\android-declarations.d.ts",

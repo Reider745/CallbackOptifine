@@ -6,4 +6,4 @@ dungeon_utility/feature.js
 generation.ts
 entity.ts
 
-shared.js
+shared.ts
