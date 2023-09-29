@@ -1,6 +1,0 @@
-{
-	"name":"Callback Optifine",
-	"author":"Reider ___",
-	"version": "beta 1.0",
-	"description": "Callback Optifine - отключает/включает не используемые callback на уровне c++, что повышает производительность."
-}

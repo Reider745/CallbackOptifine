@@ -1,7 +1,5 @@
 const DUNGEON_UTILITY = "com/reider/dungeonutility/NativeAPI";
 
-
-
 ModAPI.addAPICallback("DungeonUtility", function(api){
     CallbackEnabled.setCallbackEnabled("setBlockFeature", false);
     let prefix = CallbackEnabled.getPrefix();
