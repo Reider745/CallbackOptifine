@@ -1,0 +1,10 @@
+{
+    "shared": {
+        "name": "callback_optifine",
+		"include": []
+    },
+
+    "depends": [
+    	"innercore"
+	]
+}

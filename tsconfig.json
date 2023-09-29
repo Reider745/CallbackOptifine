@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"outDir": "C:\\vs\\toolchain\\toolchain\\toolchain\\build\\CallbackOptifine-baa7f\\sources",
+		"target": "es5",
+		"lib": [
+			"esnext"
+		],
+		"module": "none",
+		"moduleDetection": "legacy",
+		"moduleResolution": "classic",
+		"skipDefaultLibCheck": true,
+		"composite": true,
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"noEmitOnError": true,
+		"stripInternal": true,
+		"allowJs": true
+	},
+	"compileOnSave": false,
+	"exclude": [
+		"dom",
+		"webpack"
+	],
+	"include": [],
+	"files": [
+		"C:\\vs\\toolchain\\toolchain\\toolchain\\declarations\\adapted-script.d.ts",
+		"C:\\vs\\toolchain\\toolchain\\toolchain\\declarations\\core-engine.d.ts",
+		"C:\\vs\\toolchain\\toolchain\\toolchain\\declarations\\preloader.d.ts",
+		"C:\\vs\\toolchain\\toolchain\\toolchain\\declarations\\android.d.ts"
+	]
+}

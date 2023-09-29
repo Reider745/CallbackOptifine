@@ -1,0 +1,15 @@
+{
+	"extends": "..\\tsconfig.json",
+	"compilerOptions": {
+		"outFile": "C:\\vs\\toolchain\\toolchain\\toolchain\\build\\CallbackOptifine-baa7f\\sources\\main.js"
+	},
+	"exclude": [],
+	"include": [
+		"header.ts",
+		"api.ts",
+		"dungeon_utility/feature.js",
+		"generation.ts",
+		"entity.ts",
+		"shared.ts"
+	]
+}

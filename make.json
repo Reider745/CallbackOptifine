@@ -1,60 +1,50 @@
 {
-    "global": {
-        "info": {
-            "name":"Callback Optifine",
-	        "author":"Reider ___",
-	        "version": "beta 1.0",
-	        "description": "Callback Optifine - отключает/включает не используемые callback на уровне c++, что повышает производительность.",
-            "icon": "src/mod_icon.png"
-        },
-        "api": "CoreEngine"
-    },
-    "make": {
-        "debugAbi": "armeabi-v7a",
-        "abis": [
-            "armeabi-v7a"
-        ],
-        "linkNative": [
-            "minecraftpe",
-            "innercore",
-            "nativejs"
-        ],
-        "excludeFromRelease": [],
-        "pushTo": "storage/emulated/0/games/horizon/packs/innercore-test-b113-performance-beta-v2/modpacks/MySyrvival/mods/CallbackOptifine",
-        "ndkPath": null
-    },
-    "resources": [],
-    "sources": [
-        {
-            "source": "src/dev",
-            "target": "main.js",
-            "type": "main",
-            "language": "typescript"
-        },
-        {
-            "source": "src/launcher.js",
-            "type": "launcher",
-            "language": "javascript"
-        }
-    ],
-    "compile": [
-        {
-            "source": "src/native",
-            "type": "native"
-        },
-        {
-            "source": "src/java",
-            "type":"java"
-        }
-    ],
-    "additional": [
-        {
-            "source": "src/config.json",
-            "targetDir": "."
-        },
-        {
-            "source": "src/dependency-config.json",
-            "targetDir": "."
-        }
-    ]
+	"resources": [],
+	"sources": [
+		{
+			"source": "dev",
+			"target": "main.js",
+			"type": "main",
+			"language": "typescript"
+		},
+		{
+			"source": "launcher.js",
+			"type": "launcher",
+			"language": "javascript"
+		}
+	],
+	"compile": [
+		{
+			"source": "native",
+			"type": "native"
+		},
+		{
+			"source": "java",
+			"type": "java"
+		}
+	],
+	"additional": [
+		{
+			"source": "config.json",
+			"targetDir": "."
+		},
+		{
+			"source": "dependency-config.json",
+			"targetDir": "."
+		}
+	],
+	"info": {
+		"name": "Callback Optifine",
+		"author": "Reider ___",
+		"version": "beta 1.0",
+		"description": "Callback Optifine - \u043e\u0442\u043a\u043b\u044e\u0447\u0430\u0435\u0442/\u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u043d\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435 callback \u043d\u0430 \u0443\u0440\u043e\u0432\u043d\u0435 c++, \u0447\u0442\u043e \u043f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c.",
+		"icon": "mod_icon.png"
+	},
+	"api": "CoreEngine",
+	"linkNative": [
+		"minecraftpe",
+		"innercore",
+		"nativejs"
+	],
+	"excludeFromRelease": []
 }
