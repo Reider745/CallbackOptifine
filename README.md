@@ -4,7 +4,7 @@ Native mod for the inner core 1.16.201.41, aimed at increasing the stability of 
 
 * List of optimizations from the mod
   * Disable callbacks not used by the inner
-    * Create a biome map
+    * GenerateBiomeMap
     * PreprocessChunk
     * GenerateChunkUniversal
     * PostprocessChunk
